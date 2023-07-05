@@ -1,0 +1,2 @@
+Magic Number Test
+	testSubtract 	testDivide 	testAdd 	testMultiply 

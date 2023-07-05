@@ -1,0 +1,7 @@
+<div class="container">
+  <ngx-codemirror #codemirror
+                  [options]="codeMirrorOptions"
+                  [(ngModel)]="injectedCode"
+                  (ngModelChange)="setEditorContent($event)">
+  </ngx-codemirror>
+</div>

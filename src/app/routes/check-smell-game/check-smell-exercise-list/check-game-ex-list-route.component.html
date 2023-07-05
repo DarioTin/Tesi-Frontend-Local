@@ -1,0 +1,26 @@
+<h1>Check Smell Game Mode</h1>
+
+<mat-spinner *ngIf="waitingForServer"></mat-spinner>
+
+<div *ngIf="this.exerciseType != 1 && this.exerciseType != 2" class="alert alert-danger" role="alert">
+  You need to set Exercise Retrieval in Settings
+</div>
+
+<div *ngIf="this.exerciseType == 1" class="alert alert-success" role="alert">
+  You are actually using Local Retrieve mode
+</div>
+
+<div *ngIf="this.exerciseType == 2" class="alert alert-success" role="alert">
+  You are actually using Cloud Retrieve mode
+</div>
+
+<div *ngIf="serverProblems" class="alert alert-danger" role="alert">
+  Exercise server has problems
+</div>
+
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let item of exercises; let i = index">
+    <a routerLink="/check-game/{{item}}" >{{item}}</a>
+  </li>
+</ul>
+<app-github-retriever #child *ngIf="enableGit"></app-github-retriever>

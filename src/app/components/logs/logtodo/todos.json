@@ -1,0 +1,29 @@
+{
+  "todos":[
+    {
+      "text": "Effettuare il retrieval delle configurazioni per l'esericzio in locale come avviene in cloud",
+      "checked":false
+    },
+
+    {
+      "text": "Allineare compilatore online",
+      "checked":true
+    },
+    {
+      "text": "Aggiungere il blocco al click finquando non finisce la richiesta",
+      "checked":false
+    },
+    {
+      "text": "Aggiungere Home",
+      "checked":true
+    },
+    {
+      "text": "Allineare Frontend Online",
+      "checked":true
+    },
+    {
+      "text": "Aggiungere icone",
+      "checked":true
+    }
+  ]
+}

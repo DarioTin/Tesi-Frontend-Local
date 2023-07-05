@@ -1,0 +1,65 @@
+{
+  "logs": [
+    {
+      "title": "Frontend",
+      "secondarytitle": "Compiler",
+      "description": "Aggiunte configurazioni esercizi, colori in base alla compilazione e smells allowed",
+      "progress" : "100"
+    },
+
+    {
+      "title": "Frontend",
+      "secondarytitle": "Leaderboard",
+      "description": "Aggiunte nuove icone e colori per le votazioni",
+      "progress" : "100"
+    },
+    {
+      "title": "Frontend",
+      "secondarytitle": "Settings",
+      "description": "Aggiunte icone ed informazioni per vari settings",
+      "progress" : "100"
+    },
+    {
+      "title": "Backend",
+      "secondarytitle": "Server",
+      "description": "Aggiunta coda per il server",
+      "progress" : "100"
+    },
+    {
+      "title": "Frontend",
+      "secondarytitle": "Aggiunta Home View",
+      "description": "La sezione Home è stata popolata di diverse tabelle",
+      "progress" : "100"
+    },
+    {
+      "title": "Frontend",
+      "secondarytitle": "Aggiunti loaders al footer delle cards",
+      "description": "Per poter consentire all'utente di comprendere se la richiesta è avviata sono stati aggiunti dei loader ai footer delle cards",
+      "progress" : "100"
+    },
+    {
+      "title": "Frontend",
+      "secondarytitle": "Refactoring Game UI",
+      "description": "Adesso ogni editor avrà il nome del file a cui si riferisce, shell compresa",
+      "progress" : "100"
+    },
+    {
+      "title": "(ELECTRON) Frontend",
+      "secondarytitle": "Nuovo componente Github Component",
+      "description": "È stato aggiunto un nuovo componente per una migliore pulizia del codice (Github retriever)",
+      "progress" : "100"
+    },
+    {
+      "title": "Frontend",
+      "secondarytitle": "Topbar component",
+      "description": "È stato migliorata la topbar consentendo di vedere lo username.",
+      "progress" : "100"
+    },
+    {
+      "title": "Backend",
+      "secondarytitle": "Lombok",
+      "description": "Tutte le entità sono state riscritte utilizzando Lombok",
+      "progress" : "100"
+    }
+  ]
+}
